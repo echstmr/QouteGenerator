@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(95, 8, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 5px;
+    width: 700px;
+    height: 100%;
+    max-height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 4px;
+}
+
+.container h1{
+    color: rgb(95, 8, 194);
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.qoute-wrapper{
+    width: 600px;
+    max-height: 100%;
+}
+
+.container .qouteAuthor{
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 100px;
+    color: rgb(95, 8, 194);
+    font-size: 1.5rem;
+}
+
+.container .ftr{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.container .ftr button{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    border: 1px solid ;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(95, 8, 194);
+    transition: 0.3s ease-in-out;
+}
+.container .ftr button:hover{
+    background-color: #dd1818;
+    color: #000000;
+    border: none;
+}
+
+.container .ftr .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(95, 8, 194); ;
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
